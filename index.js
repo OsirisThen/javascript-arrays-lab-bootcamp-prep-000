@@ -24,7 +24,7 @@ return result;
 }
 
 function prependKitten(name){
-let result =[...kittens,name]
+let result = [name, ...kittens]
 return result;
 }
 
