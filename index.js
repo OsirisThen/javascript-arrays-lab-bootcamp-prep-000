@@ -29,7 +29,7 @@ return result;
 }
 
 function removeLastKitten(){
-let result = kittens.splice(1, kittens.length-1)
+let result = kittens.splice(0, kittens.length-1)
 return result;
 }
 
