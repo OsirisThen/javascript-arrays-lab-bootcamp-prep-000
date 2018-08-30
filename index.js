@@ -1,10 +1,10 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name){
-  name.push('Garfiel')
+  kittens.push(name)
   return name
 }
 
 function destructivelyPrependKitten(name){
-  name.unshift('Milo')
+kittens.unshift(name)
   return name
 }
