@@ -19,6 +19,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function prependKitten(name){
-let result = kittens.concat(name)
+let result = name.concat(kittens)
 return result;
 }
