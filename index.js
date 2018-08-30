@@ -17,3 +17,8 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return name
 }
+
+function prependKitten(name){
+let result = kittens.concat(name)
+return result;
+}
