@@ -29,11 +29,12 @@ return result;
 }
 
 function removeLastKitten(){
-let result = kittens.splice(0, kittens.length-1)
+let result = kittens.splice( kittens.length-1)
 return result;
 }
 
 function removeFirstKitten(){
 let result = kittens.slice(1)
 return result;
+
 }
